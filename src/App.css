@@ -1,0 +1,25 @@
+.App{
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);}
+  
+  .search-form{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-bar{
+    width: 25%;
+    border: none;
+    padding: 10px;
+  }
+
+  .btn{
+    background-color: darksalmon;
+    width: auto;
+    border-style: solid;
+    padding: 10px;
+  }
