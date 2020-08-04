@@ -20,7 +20,7 @@ const App = () => {
 
   const getWeather = async () => {
     setLoading(true);
-    const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${APP_KEY}&q=${query}`);
+    const response = await fetch(`https://cors-anywhere.herokuapp.com/http://api.weatherapi.com/v1/current.json?key=${APP_KEY}&q=${query}`);
     const data = await response.json();
     setWeather(data);
     console.log(data);
